@@ -1,0 +1,58 @@
+.contact{
+    height: 100vh;
+    background-color: rgb(31, 28, 28);
+    color: white;
+    padding: 4rem 4rem;
+    .instruction{
+        display: flex;
+        margin: auto;
+        .icon{
+            font-size: 3rem;
+        }
+        text-align: center;
+        justify-content: space-between;
+        padding: 0 4rem;
+    }
+    .rows{
+        display: flex;
+        justify-content: space-around;
+        .eight-rows{
+            flex: 0.8;
+            line-height: 3.5;
+            position: relative;
+            .row{
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                margin: 1rem 0;
+                input{
+                    width: 65%;
+                    font-size: 1.5rem;
+                }
+                textarea{
+                    width: 65%;
+                }
+                &:nth-child(4){
+                    margin-left: -7px;
+                    // background-color: rebeccapurple;
+                }
+            }
+            button{
+                background: none;
+                padding: .6rem .8rem;
+                cursor: pointer;
+                color: white;
+                position: absolute;
+                left: 19.5vw;
+                transition: all .5s ease-in;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+        aside{
+            flex: 0.2;
+        }
+    }
+}

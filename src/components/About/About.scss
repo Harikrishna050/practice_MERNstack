@@ -1,0 +1,53 @@
+
+  .about {
+    background-color: rgb(105, 105, 214);
+    height: 70vh;
+    display: flex;
+    position: relative;
+    padding: 7rem 0;
+    .pic {
+      flex: 0.3;
+      margin: 0 auto;
+      justify-content: center;
+      display: flex;
+      align-items: start;
+      img {
+        width: 10rem;
+        border-radius: 50%;
+      }
+    }
+    .details {
+      flex: 0.7;
+      line-height: 2.5;
+      .about-me {
+        p {
+          line-height: 1.5;
+        }
+      }
+      .contact-me {
+        display: flex;
+        align-items: center;
+        .contact-details {
+          * {
+            list-style: none;
+            line-height: 1.5;
+          }
+        }
+        button {
+          margin-left: 1rem;
+          height: 8vh;
+          width: 13vw;
+          background: #d7d7c5;
+          border: none;
+          cursor: pointer;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          transition: all 0.3s ease;
+          &:hover {
+            background-color: rgb(202, 164, 164);
+          }
+        }
+      }
+    }
+  }

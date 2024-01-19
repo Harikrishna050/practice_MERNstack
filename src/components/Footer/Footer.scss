@@ -1,0 +1,27 @@
+.footer {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  background-color: rgb(24, 21, 21);
+  .media-icons {
+    overflow: hidden;
+    a {
+      padding: 1.5rem;
+      font-size: 2rem;
+      color: rgba(128, 128, 128, 0.943);
+    }
+  }
+  ul {
+    text-align: center;
+    li {
+        font-size: .8rem;
+        color: white;
+        a{
+            color: rgba(128, 128, 128, 0.943);
+        }
+    }
+  }
+}
