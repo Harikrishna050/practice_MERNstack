@@ -15,6 +15,7 @@ const WorkItem = ({ setCartItems }) => {
         itemName: foundWorkType.title,
         img: foundWorkType.img,
         price: foundWorkType.price,
+        dec:foundWorkType.desc,
     }
     const handleCart = async (e) => {
         e.preventDefault();
@@ -61,7 +62,7 @@ const WorkItem = ({ setCartItems }) => {
                         <span>{foundWorkType.offer}% off</span>
                     </div>
                     <div className="item-other-details">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse eius id ratione culpa velit repellendus, et natus facere earum hic quia odio vitae sunt ducimus ex doloribus, ipsam, maxime optio exercitationem error repellat! Voluptates repudiandae eaque quidem sequi assumenda fugit?</p>
+                        <p>{foundWorkType.desc}</p>
                     </div>
                 </div>
             </div>

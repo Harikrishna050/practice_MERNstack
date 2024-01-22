@@ -37,7 +37,7 @@ const NavBar = (props) => {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><a href='#about'>About</a></li>
-          <li><a href='#resume'>Resume</a></li>
+          <li><a href='#about'>Resume</a></li>
           <li><a href='#works'>Works</a></li>
           <li><a href='#contact'>Contact</a></li>
         </ul>

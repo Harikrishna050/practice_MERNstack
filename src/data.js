@@ -1,54 +1,59 @@
 export const WorkTypes = [
   {
     id: 1,
-    title: "Canadian Wanderlust",
+    title: "Wedding Planner Website",
     img:
-      "https://nordicgiant2.github.io/react-nice-resume-page/images/portfolio/01.jpg",
+      "https://imgs.search.brave.com/7DpZQCHdLMiOFCqD9u4CHD7rhCWlqbs69D_Cp85nrAc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90aGVt/ZWZvcmVzdC5pbWcu/Y3VzdG9tZXIuZW52/YXRvdXNlcmNvbnRl/bnQuY29tL2ZpbGVz/LzI2Njc0NDg4MC9Q/cmV2aWV3LUltYWdl/LmpwZz9hdXRvPWNv/bXByZXNzLGZvcm1h/dCZmaXQ9Y3JvcCZj/cm9wPXRvcCZ3PTU5/MCZoPTMwMCZzPTI2/MWViY2U5ZDYwZDlj/MTQyNjQxZmE2ZTI2/M2RiMjli",
     rating: 4.1,
     votes: "92,234",
     price: 1000,
     offer: 42,
+    desc:"The platform where couples are being assisted to select their preference vendors,caters,and other components under authorized user and possess security.This website is made using complete MERN stack tech.",
 
   },
   {
     id: 2,
-    title: "Fury Fighting Gear",
+    title: "MultiCalculator",
     img:
-      "https://nordicgiant2.github.io/react-nice-resume-page/images/portfolio/02.jpg",
+      "https://imgs.search.brave.com/3VQImNmdgQtwUvvkZ3nK69nHfW9us1HmilOzXJ4IYOQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9yZW5k/ZXIuZmluZWFydGFt/ZXJpY2EuY29tL2lt/YWdlcy9yZW5kZXJl/ZC9zZWFyY2gvcG9z/dGVyLzgvNS41L2Jy/ZWFrL2ltYWdlcy9h/cnR3b3JraW1hZ2Vz/L21lZGl1bS8xLzIx/LXNjaWVudGlmaWMt/ZXhwZXJpbWVudC1p/bi1zY2llbmNlLXJl/c2VhcmNoLWxhYi1v/bGl2aWVyLWxlLXF1/ZWluZWMuanBn",
     rating: 4.1,
     votes: "92,234",
     price: 1099,
     offer: 42,
+    desc:"A new type calculator with responsive which comprises basic ,scientific and interest Calculator.This calculator was being made using HTML,CSS,JavaScript",
   },
   {
     id: 3,
-    title: "Original Thai Food",
+    title: "Hostel Management System",
     img:
-      "https://nordicgiant2.github.io/react-nice-resume-page/images/portfolio/03.jpg",
+      "https://imgs.search.brave.com/M5vmEHI57JEkLX2-PW2djyVduC5Yz-wYe4WYwA28rrQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cmV2ZmluZS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvRmFjaW5nLUF1/dG9tYXRpb24tRmVh/cnMtQS1QZXJzcGVj/dGl2ZS1mb3ItSG90/ZWxpZXJzLmpwZw",
     rating: 4.1,
     votes: "92,234",
     price: 1999,
     offer: 42,
+    desc:"Developed a comprehensive Hostel Management System with features like Leave Requests, Complaints, Mess Changes, Room Allocation.It is in working",
   },
   {
     id: 4,
-    title: "Relax Mobile App",
+    title: "Food Order Service by Bot",
     img:
-      "https://nordicgiant2.github.io/react-nice-resume-page/images/portfolio/05.jpg",
+      "https://imgs.search.brave.com/0bER2YgmIuf7Q0vW36puXGB616QCGTAAR25BlWTxDdk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMtZ2xvYmFsLndl/YnNpdGUtZmlsZXMu/Y29tLzVlMzA1YTZj/YjcwODMyMjI1Mjdh/ODljYy81ZTNhZGFk/OTBhMTMyYTNhNDFi/NzgyZmFfMSpLWVJx/Q1hNOGVHd08tWUEx/cnZoMFlBLmpwZWc",
       rating: 4.1,
     votes: "92,234",
     price: 1099,
     offer: 42,
+    desc:"I developed a real-time food order service that utilizes a ChatBot interface for a seamless user experience. The backend is powered by FastAPI, integrating SQL Workbench for efficient data management.Then integrated in my custom website using HTML,CSS,JS",
   },
   {
     id: 5,
-    title: "Hero Web Design",
+    title: "Order Tracking ChatBot",
     img:
-      "https://nordicgiant2.github.io/react-nice-resume-page/images/portfolio/04.jpg",
+      "https://imgs.search.brave.com/jEDRpAN4teuthvXr3TiLVeoSBTTdzYYsnN93FQsI_80/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vZG4xajZkcGQ3/L2ltYWdlL3VwbG9h/ZC92MTYzMzYxNDY4/Ny9jYi9oZWxwMi9z/aG9waWZ5LWludGVn/cmF0aW9uL3Nob3ct/b3JkZXItc3RhdHVz/L3Nob3ctb3JkZXIt/c3RhdHVzLTI0LnBu/Zw",
     rating: 4.1,
     votes: "92,234",
     price: 108,
     offer: 42,
+    desc:"",
   },
   {
     id: 6,
@@ -59,6 +64,7 @@ export const WorkTypes = [
     votes: "92,234",
     price: 999,
     offer: 42,
+    desc:"",
   },
 ];
 

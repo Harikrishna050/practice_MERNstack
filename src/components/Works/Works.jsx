@@ -7,6 +7,7 @@ const Works = () => {
   return (
     <section id='works' className='works'>
       <h3>CHECK OUT SOME OF MY WORKS.</h3>
+      <span>(All ratings,price etc are to be ignored.)</span>
       <div className="work">
       {WorkTypes.map((d)=>(
         <Link className='text-dec' to={`/works/${d.id}`}>

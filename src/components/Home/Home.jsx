@@ -11,14 +11,14 @@ const Home = () => {
       <section id='home' className="container">
         <div className='home'>
           <div className="project-title">
-            <h1>Nordic-Giant Project</h1>
+            <h1>Code-Explorer</h1>
           </div>
           <div className="desc">
-            I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page.
+            I am a web development engineer and I use MERN stack to develop pages. This project is a resume template that showcase all my hands on projects.
           </div>
           <div className="links">
             <div className="link"><GoProjectRoadmap /><a href="">Project</a></div>
-            <div className="link"><FaGithub /><a href="">Github</a></div>
+            <div className="link"><FaGithub /><a href="https://github.com/Harikrishna050?tab=repositories" >Github</a></div>
 
           </div>
         </div>
