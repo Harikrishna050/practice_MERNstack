@@ -17,7 +17,7 @@ const Home = () => {
             I am a web development engineer and I use MERN stack to develop pages. This project is a resume template that showcase all my hands on projects.
           </div>
           <div className="links">
-            <div className="link"><GoProjectRoadmap /><a href="#works">Project</a></div>
+            <div className="link"><GoProjectRoadmap /><a href="">Project</a></div>
             <div className="link"><FaGithub /><a href="https://github.com/Harikrishna050?tab=repositories" >Github</a></div>
 
           </div>
