@@ -22,7 +22,7 @@ const About = () => {
             <li>+91-6371699410</li>
             <li>harikrishnacode050@gmail.com</li>
           </div>
-          <button ><Link className="btn-resume" to="https://docs.google.com/document/d/1O6CjYOw_ZUmfO30VyX9MG84ZFghyN7g9/edit"><FaDownload />Download Resume</Link></button>
+          <button ><Link className="btn-resume" to="https://drive.google.com/file/d/1_q_h2POiXoJIJgj-WyUwZMbXJC8aePgV/view?usp=sharing"><FaDownload />Download Resume</Link></button>
         </div>
       </div>
     </div>
